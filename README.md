@@ -20,3 +20,8 @@ Start jupyter notebook
 $ jupyter notebook
 ```
 In the first function you will need to change the path to your local Fiji application.
+
+## Known Issues
+
+ ```ij.ui().show('Image', ij.py.to_java(plane))```
+ Does not work on Mac, rest of the code should work, you just can't view it
